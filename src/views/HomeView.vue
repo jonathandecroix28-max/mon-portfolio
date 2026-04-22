@@ -97,6 +97,7 @@
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
-const profileImage = 'src/assets/img/jojo.jpg'
+import profileImage from '../assets/img/jojo.jpg'
+
 const photoError = ref(false)
 </script>
