@@ -7,21 +7,22 @@ import FooterComponent from './components/FooterComponent.vue'
 
 <template>
   <div class="min-h-screen bg-slate-900 text-slate-100 flex">
-    
-    <header>
+    <header class="shrink-0">
       <Navbar />
     </header>
 
-    <main class="flex-1 p-8 transition-all duration-300">
-      <div class="max-w-5xl mx-auto">
-        <RouterView />
+    <div class="flex-1 min-h-screen flex flex-col">
+      <main class="flex-1 p-8 transition-all duration-300">
+        <div class="max-w-5xl mx-auto w-full">
+          <RouterView />
+        </div>
+      </main>
+
+      <div class="px-8 pb-8">
+        <div class="max-w-5xl mx-auto w-full">
+          <FooterComponent />
+        </div>
       </div>
-    </main>
-   <footer class="max-w-5xl mx-auto">
-   <FooterComponent />
-   </footer>
-  </div> 
- 
+    </div>
+  </div>
 </template>
-
-

@@ -1,7 +1,7 @@
 <template>
   <nav 
     :class="[isCollapsed ? 'w-20' : 'w-64']" 
-    class="fixed top-0 left-0 h-screen bg-slate-950 text-slate-300 border-r border-slate-800 shadow-2xl flex flex-col z-50 transition-all duration-300 ease-in-out"
+    class="h-screen sticky top-0 bg-slate-950 text-slate-300 border-r border-slate-800 shadow-2xl flex flex-col transition-all duration-300 ease-in-out"
   >
     <div class="p-4 flex items-center justify-between mb-8 h-20">
       <div to="/" v-if="!isCollapsed" class="flex items-center gap-3 group overflow-hidden whitespace-nowrap">
