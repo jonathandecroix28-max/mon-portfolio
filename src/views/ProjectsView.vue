@@ -45,7 +45,7 @@ const projects = ref([
     <div>
       <h1 class="text-3xl md:text-4xl font-bold text-blue-400">Mes projets</h1>
       <p class="mt-2 text-slate-300">
-        Cette page est prête pour ajouter tes projets au fur et à mesure.
+        Voici des projets réalisés au sein de Epitech
       </p>
     </div>
 
