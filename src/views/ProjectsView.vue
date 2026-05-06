@@ -12,7 +12,7 @@ const projects = ref([
   {
     id: 2,
     title: 'Génerateur de CV avec DomPDF',
-    description: "Une application de gestion de tâches simple et efficace, permettant aux utilisateurs de créer, organiser et suivre leurs tâches quotidiennes.",
+    description: "Génerateur de CV avec une preview en direct via JavaScript puis exportation via DomPDF",
     technologies: ['Html', 'Bootstrap', 'JavaScript', 'PHP'],
     link: 'https://cv-generator-7ybc.onrender.com/'
   },
