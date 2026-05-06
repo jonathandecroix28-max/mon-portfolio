@@ -21,7 +21,7 @@ const projects = ref([
     title: 'Back-office My_Cinema',
     description: "Un back-office de gestion de cinéma permettant d'ajouter, de modifier et de supprimer des films, des séances et des réservations. L'application utilise une architecture MVC avec PHP et MySQL.",
     technologies: ['Html', 'Bootstrap', 'JavaScript', 'PHP', 'MySQL'],
-    link: 'https://github.com/tonyngophd/task-manager'
+    link: 'https://github.com/jonathandecroix28-max/my-cinema'
   },
   {
     id: 4,
