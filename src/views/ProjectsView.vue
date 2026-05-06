@@ -49,11 +49,11 @@ const projects = ref([
       </p>
     </div>
 
-    <div v-if="projects.length" class="grid gap-6 md:grid-cols-2">
+    <div v-if="projects.length" class="grid gap-6 md:grid-cols-2 items-stretch">
       <article
         v-for="project in projects"
         :key="project.id"
-        class="rounded-2xl border border-slate-700 bg-slate-900/70 p-6 shadow-lg"
+        class="rounded-2xl border border-slate-700 bg-slate-900/70 p-6 shadow-lg flex flex-col justify-between h-full"
       >
         <h2 class="text-xl font-semibold text-white">{{ project.title }}</h2>
         <p class="mt-3 text-slate-300">{{ project.description }}</p>
