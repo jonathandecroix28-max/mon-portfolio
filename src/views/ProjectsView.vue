@@ -28,14 +28,21 @@ const projects = ref([
     title: 'ConnectinV1 - Laravel',
     description: "Un mini réseau social développé avec Laravel, permettant aux utilisateurs de créer un compte, de publier des messages, de suivre d'autres utilisateurs et d'interagir avec les publications.",
     technologies: ['Html', 'Tailwind CSS', 'JavaScript', 'PHP', 'MySQL', 'Laravel', "Vue.js"],
-    link: 'https://github.com/tonyngophd/task-manager'
+    link: 'https://github.com/jonathandecroix28-max/connectin'
   },
     {
      id: 5,
      title: 'ConnectinV2 - Spring Boot',
      description: "Une refonte du mini réseau social ConnectinV1, à parir d'un frontend fourni, il faut utiliser Spring Boot pour créer une API RESTful qui gère les utilisateurs, les publications et les interactions, tout en assurant la sécurité et la performance de l'application.",
      technologies: ['Html', 'Tailwind CSS', 'JavaScript', 'Java', 'MySQL', 'Spring Boot'],
-     link: '' 
+     link: 'https://github.com/jonathandecroix28-max/connectin-v2' 
+    },
+    {
+      id: 6,
+      title: 'Devops',
+      description: "CI/CD - Création d'un workflow pour faire des test unitaires et fonctionnel ainsi qu'un deployement automatique des jeux sur GitHub Pages",
+      technologies: ['YAML', 'TypeScript', 'Javascript', 'Html'],
+      link: 'https://github.com/jonathandecroix28-max/jeu'
     }
 ])
 </script>
