@@ -1,6 +1,6 @@
 <template>
   <nav 
-    :class="[isCollapsed ? 'w-20' : 'w-64']" 
+    :class="[isCollapsed ? 'w-20' : 'w-64', !isCollapsed ? 'expanded' : '']" 
     class="h-screen sticky top-0 bg-slate-950 text-slate-300 border-r border-slate-800 shadow-2xl flex flex-col transition-all duration-300 ease-in-out"
   >
     <div class="p-4 flex items-center justify-between mb-8 h-20">
@@ -75,5 +75,30 @@ function toggleSidebar() {
 /* Style lien actif */
 .router-link-active {
   @apply bg-blue-600/10 text-blue-400 border-r-4 border-blue-600 rounded-r-none;
+}
+
+@media (max-width: 768px) {
+  nav.expanded {
+    position: fixed !important;
+    inset: 0 0 0 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    z-index: 60 !important;
+    display: flex !important;
+    background-color: rgba(15, 23, 42, 0.98) !important; /* bg-slate-950 with slight opacity */
+  }
+
+  nav.expanded .grow {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 2rem;
+  }
+
+  nav.expanded .p-4 {
+    position: sticky;
+    top: 0;
+    background: transparent;
+    z-index: 61;
+  }
 }
 </style>
